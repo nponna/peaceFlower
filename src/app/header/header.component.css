@@ -1,0 +1,21 @@
+.name {
+  font-family: 'EB Garamond', serif;
+  font-weight: lighter;
+  letter-spacing: -0.02em;
+  font-variant: small-caps;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(0, 69, 119, 0.9);
+  padding-top: 40px;
+}
+   
+.logo {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+.upper-band {
+  background-color: rgba(0, 69, 119, 0.9); 
+  height: 30px;
+}    

@@ -1,0 +1,12 @@
+.nav-colors {
+  background-color: rgba(0, 69, 119, 0.9); 
+  height: 80px;
+}
+
+a {
+  color: white;
+}
+
+.nav-ul-custom {
+  padding-top: 20px;
+}
