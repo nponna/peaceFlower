@@ -1,0 +1,38 @@
+
+.nav-colors {
+  background-color: rgba(0, 69, 119, 0.9); 
+  height: 200px;
+  color: white;
+}
+
+.title {
+  font-family: 'EB Garamond', serif;
+  font-weight: lighter;
+  letter-spacing: -0.02em;
+  font-variant: small-caps;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 20px;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.sub-title {
+  color: white;
+  font-family: 'EB Garamond', serif;
+  font-weight: lighter;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.contact-us {
+  padding-top: 20px;	
+  color: white;
+  font-family: 'EB Garamond', serif;
+  font-weight: lighter;
+  letter-spacing: -0.02em;
+  text-align: center;
+  font-size: 18px;
+}
+

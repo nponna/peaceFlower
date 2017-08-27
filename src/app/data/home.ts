@@ -1,0 +1,3 @@
+export const missionStatement = "Peace Flower Montessori is a diverse educational community built on the Montessori philosophy that fosters curiosity, creativity and critical thinking in the students. At Peace Flower, teachers attend to the student’s individual needs to achieve personal and academic excellence and to become lifelong learners who learn to respect themselves, others and their environment.";
+export const schoolName = "PEACE FLOWER MONTESSORI";
+export const schoolCaption = "Education for Independence";

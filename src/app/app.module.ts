@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ReviewsComponent } from './reviews/reviews.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const routes: Routes = [
@@ -22,7 +23,8 @@ const routes: Routes = [
     HeaderComponent,
     HomeComponent,
     NavigationComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
