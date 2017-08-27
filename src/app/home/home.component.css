@@ -12,3 +12,14 @@
 .block-custom {
    padding-top: 90px;
 }
+
+.circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 250px;
+  text-align: center;
+  background: rgba(0, 69, 119, 0.9);
+}

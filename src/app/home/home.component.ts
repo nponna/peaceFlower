@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { missionStatement } from '../data/home';
+import { missionStatement, whyPeaceFlower } from '../data/home';
 
 @Component({
   selector: 'home',
@@ -8,9 +8,11 @@ import { missionStatement } from '../data/home';
 })
 export class HomeComponent implements OnInit{
   public missionStatementDisplayed: string;
+  public whyPeaceFlowerDisplayed: string;
  
   ngOnInit(): void {
   	this.missionStatementDisplayed = missionStatement;
+  	this.whyPeaceFlowerDisplayed = whyPeaceFlower;
   }
 
 }
