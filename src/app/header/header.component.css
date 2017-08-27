@@ -3,7 +3,7 @@
   font-weight: lighter;
   letter-spacing: -0.02em;
   font-variant: small-caps;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   color: rgba(0, 69, 119, 0.9);
   padding-top: 40px;
@@ -13,9 +13,10 @@
   color: rgba(0, 69, 119, 0.9);
   font-family: 'EB Garamond', serif;
   font-weight: lighter;
+  font-size: 20px;
   letter-spacing: -0.02em;
   text-align: right;
-  padding-right: 100px;
+  padding-right: 160px;
 }
    
 .logo {
