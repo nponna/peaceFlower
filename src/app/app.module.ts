@@ -8,11 +8,13 @@ import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'reviews', component: ReviewsComponent},
+  { path: 'aboutUs', component: AboutUsComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full'}
 ]
 
@@ -24,7 +26,8 @@ const routes: Routes = [
     HomeComponent,
     NavigationComponent,
     ReviewsComponent,
-    FooterComponent
+    FooterComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,
