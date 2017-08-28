@@ -1,8 +1,12 @@
 .card-img-bottom {
   color: #fff;
-  height: 30rem;
+  height: 350px;
   background: url(../../assets/images/kidPlaying.jpg) center no-repeat;
+  width: 200px;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .title-custom {
