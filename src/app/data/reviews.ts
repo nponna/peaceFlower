@@ -11,6 +11,12 @@ export const reviews = [
  	"content2": "Tandrima is eager to learn new skills and always committed towards professional development. She is very present in the classroom and is always on her toes to act when in need. She has developed her classroom curriculum and prepared a great environment for the children to learn and grow.",
  	"content3": "Tandrima is a great team player and has wonderful rapport with people of all ages, which makes her ideal to be a teacher. She has great verbal and written communication skill.",
  	"date": "August 12, 2017"
+ },
+ {
+ 	"reviewer": "Bhavika Taunk",
+ 	"content1": "Ms. Anu was my eldest son Kabir's first teacher when he turned two and was new to preschool. She was extremely caring, loving and an effective educator. He grew very attached and her presence made the transition into preschool much smoother coming from the home environment. He continue to have her for the age 3-5 preschool class and learned a lot under her teaching vast knowledge and teaching methods.",
+ 	"content2": "I'd highly recommend her to any parent",
+ 	"date": "August 31, 2017"
  }
 ]
 	

@@ -10,13 +10,18 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ProgramsComponent } from './programs/programs.component';
-
+import { ClassRoomStrategiesComponent } from './class-room-strategies/class-romm-strategies.component';
+import { AdmissionsComponent } from './admissions/admissions.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'reviews', component: ReviewsComponent},
   { path: 'aboutUs', component: AboutUsComponent},
   { path: 'programs', component: ProgramsComponent},
+  { path: 'classRoom', component: ClassRoomStrategiesComponent},
+  { path: 'admissions', component: AdmissionsComponent},
+  { path: 'contactUs', component: ContactUsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
 ]
 
@@ -30,7 +35,10 @@ const routes: Routes = [
     ReviewsComponent,
     FooterComponent,
     AboutUsComponent,
-    ProgramsComponent
+    ProgramsComponent,
+    ClassRoomStrategiesComponent,
+    AdmissionsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
