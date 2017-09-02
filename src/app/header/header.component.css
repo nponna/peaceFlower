@@ -1,7 +1,7 @@
 .title {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Georgia', serif;
   font-weight: lighter;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.0em;
   font-variant: small-caps;
   text-align: left;
   text-transform: uppercase;
@@ -11,18 +11,18 @@
 
 .sub-title {
   color: rgba(0, 69, 119, 0.9);
-  font-family: 'EB Garamond', serif;
+  font-family: 'Georgia', serif;
   font-weight: lighter;
   font-size: 20px;
   letter-spacing: -0.02em;
   text-align: right;
-  padding-right: 160px;
+  padding-right: 80px;
 }
    
 .logo {
   display: block;
   margin: auto;
-  width: 40%;
+  width: 50%;
 }
 
 .upper-band {
