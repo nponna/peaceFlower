@@ -1,16 +1,20 @@
 import { Component, OnInit } from '@angular/core';
-import { aboutUs } from '../data/about';
+import { schoolName, schoolCaption } from '../data/home';
+import { aboutus } from '../data/about-us';
 
 @Component({
   selector: 'about-us',
   templateUrl: './about-us.component.html',
   styleUrls: ['./about-us.component.css']
 })
-export class AboutUsComponent implements OnInit{
-  public aboutUsDisplayed: string;
- 
+export class AboutusComponent implements OnInit {
+  public titleDisplayed:string;
+  public subTitleDisplayed:string;
+  public aboutusDisplayed: string;	
+  
   ngOnInit(): void {
-  	this.aboutUsDisplayed = aboutUs;
+  	this.titleDisplayed = schoolName;
+  	this.subTitleDisplayed = schoolCaption;
+  	this.aboutusDisplayed = aboutus;
   }
-
 }

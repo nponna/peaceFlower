@@ -8,18 +8,18 @@ import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { FooterComponent } from './footer/footer.component';
-import { AboutUsComponent } from './about-us/about-us.component';
+import { TeachersComponent } from './Teachers/Teachers.component';
 import { ProgramsComponent } from './programs/programs.component';
-import { ClassRoomStrategiesComponent } from './class-room-strategies/class-romm-strategies.component';
+import { AboutusComponent } from './about-us/about-us.component';
 import { AdmissionsComponent } from './admissions/admissions.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'reviews', component: ReviewsComponent},
-  { path: 'aboutUs', component: AboutUsComponent},
+  { path: 'Teachers', component: TeachersComponent},
   { path: 'programs', component: ProgramsComponent},
-  { path: 'classRoom', component: ClassRoomStrategiesComponent},
+  { path: 'classRoom', component: AboutusComponent},
   { path: 'admissions', component: AdmissionsComponent},
   { path: 'contactUs', component: ContactUsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
@@ -34,9 +34,9 @@ const routes: Routes = [
     NavigationComponent,
     ReviewsComponent,
     FooterComponent,
-    AboutUsComponent,
+    TeachersComponent,
     ProgramsComponent,
-    ClassRoomStrategiesComponent,
+    AboutusComponent,
     AdmissionsComponent,
     ContactUsComponent
   ],

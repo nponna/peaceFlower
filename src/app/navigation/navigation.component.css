@@ -1,5 +1,8 @@
 .nav-colors {
   background-color: rgba(0, 69, 119, 0.9); 
+  font-family: 'Georgia', serif;
+  font-weight: lighter;
+  font-size: 20px;
   height: 80px;
 }
 
