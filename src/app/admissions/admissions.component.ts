@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { missionStatement, whyPeaceFlower } from '../data/home';
 
 @Component({
-  selector: 'admissions',
+  selector: 'Admissions',
   templateUrl: './admissions.component.html',
   styleUrls: ['./admissions.component.css']
 })

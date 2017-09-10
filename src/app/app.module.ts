@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -19,9 +20,9 @@ const routes: Routes = [
   { path: 'reviews', component: ReviewsComponent},
   { path: 'Teachers', component: TeachersComponent},
   { path: 'programs', component: ProgramsComponent},
-  { path: 'classRoom', component: AboutusComponent},
-  { path: 'admissions', component: AdmissionsComponent},
-  { path: 'contactUs', component: ContactUsComponent },
+  { path: 'aboutus', component: AboutusComponent},
+  { path: 'Admissions', component: AdmissionsComponent},
+  { path: 'ContactUs', component: ContactUsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
 ]
 
@@ -42,7 +43,8 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
