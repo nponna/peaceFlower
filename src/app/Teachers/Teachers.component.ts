@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { teachers } from '../data/teachers';
+import { teachers, bios } from '../data/teachers';
 
 @Component({
   selector: 'Teachers',
@@ -8,9 +8,11 @@ import { teachers } from '../data/teachers';
 })
 export class TeachersComponent implements OnInit{
   public TeachersDisplayed: string;
+  public biosDisplayed: any[] = [];
  
   ngOnInit(): void {
   	this.TeachersDisplayed = teachers;
+  	this.biosDisplayed = bios;
   }
 
 }
