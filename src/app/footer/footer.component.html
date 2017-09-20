@@ -1,22 +1,22 @@
-<div class="row nav-colors"> 
-  <div class="col-sm-2" > 
-      <address class="contact-us">
-        Address: <br/>
-		2120 Omaga Road <br/>
-		San Ramon <br/>
-		CA, 94583 <br/>
-	  </address>
-  </div>
-  <div class="col-sm-8" > 
+ <nav class="navbar-inverse">
+  <div class="nav-colors">
+    <div class="col-sm-3" > 
+      <address class="address">
+        2120 Omaga Road <br/>
+		    San Ramon CA 94583
+	     </address>
+     </div>
+     <div class="collapse navbar-collapse"[ngClass]="{ 'in': false}"> 
+    <div class="col-sm-6" > 
       <p class="title">{{ titleDisplayed }}</p>
       <p class="sub-title"><em> {{ subTitleDisplayed }} </em></p>
-  </div>
-  
-  <div class="col-sm-2" > 
-    <address class="contact-us">
-	     Contact Us:<br/>
+     </div>
+    <div class="col-sm-3" > 
+      <address class="contact-us">
 	     <a href="tel:+19253258097"><i class="fa fa-phone fa-lg" ></i></a> &nbsp; (925) 325-8097 <br/>
-	     <a href="mailto:anu@peaceflowermontessori.com"><i class="fa fa-envelope-o fa-lg" ></i></a> &nbsp; <a href="anu@peaceflowermontessori.com"> <i class="white"> Email </i></a> <br/>
-    </address> 
+	     <a href="mailto:anu@peaceflowermontessori.com"><i class="fa fa-envelope-o fa-lg" ></i></a> &nbsp; <a href="anu@peaceflowermontessori.com"> <i class="white"> Email </i></a>
+      </address> 
+      </div>
+      </div>
   </div>
-</div>
+  </nav>

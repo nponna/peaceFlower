@@ -4,16 +4,16 @@
       <div class="card">
         <div class="row">
           <div class="col-md-3">
-            <div class="card-img-bottom">
+            <div class="card-img-bottom cardtext">
               {{ review.reviewer }}
             </div>
           </div>
           <div class="col-md-9">
             <div class="card-block">
-              <p class="card-text"><em>{{ review.content1 }}</em></p>
-              <p class="card-text"><em>{{ review.content2 }}</em></p>
-              <p class="card-text" *ngIf="review.content3"><em>{{ review.content3 }}</em></p>
-              <p class="card-text metadata-date"><em>Dated {{ review.date }}</em></p>
+              <p class="card-text cardtext"><em>{{ review.content1 }}</em></p>
+              <p class="card-text cardtext"><em>{{ review.content2 }}</em></p>
+              <p class="card-text cardtext" *ngIf="review.content3"><em>{{ review.content3 }}</em></p>
+              <p class="card-text cardtext metadata-date"><em>Dated {{ review.date }}</em></p>
             </div>
           </div>
         </div>

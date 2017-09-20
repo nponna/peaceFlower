@@ -6,7 +6,7 @@
   text-align: left;
   text-transform: uppercase;
   color: rgba(0, 69, 119, 0.9);
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .sub-title {
@@ -22,10 +22,10 @@
 .logo {
   display: block;
   margin: auto;
-  width: 50%;
+  width: 40%;
 }
 
 .upper-band {
   background-color: rgba(0, 69, 119, 0.9); 
-  height: 30px;
+  height: 0px;
 }    

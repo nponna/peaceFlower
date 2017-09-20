@@ -1,1 +1,1 @@
-export const teachers = "Peace Flower Montessori started by passionate, qualified and experienced Montessori teachers.";
+export const teachers = "Peace Flower Montessori started by passionate, qualified and experienced Montessori teachers Anu and Tan. Below are full details about them.";
