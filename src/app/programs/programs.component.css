@@ -22,3 +22,6 @@
 .card {
 	border-color: white;
 }
+.custom-size {
+  font-size: 18px;
+}

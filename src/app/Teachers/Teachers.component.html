@@ -1,26 +1,26 @@
 <div class="row"> 
   <div class="col-sm-12">
-   <p>{{TeachersDisplayed}}</p>
+   <p class="custom-size">{{TeachersDisplayed}}</p>
   </div>
 </div>
 <div class="row"> 
   <div class="col-sm-6" *ngFor="let bio of biosDisplayed">
-    <div class="card">
+    <div class="card custom-size">
       <img class="card-img-top profile-image-position " src="../../assets/images/profilePic.png" alt="Card image cap">
       <div class="card-block">
-        <h4 class="card-title">{{bio.name}}</h4>
+        <h3 class="card-title">{{bio.name}}</h3>
         <p class="card-text">{{bio.desc}}</p>
-        <h5 class="card-title">Education</h5>
+        <h3 class="card-title">Education</h3>
         <ul>
           <li *ngFor="let edu of bio.education">{{edu}}</li>
         </ul>
-        <h5 class="card-title">Experience</h5>
+        <h3 class="card-title">Experience</h3>
           <table *ngFor="let exp of bio.experience">
             <tr>
               <td><b>{{exp.institution}}</b></td>
             </tr>
             <tr *ngFor="let term of exp.terms">
-              <td>{{term.title}}</td>
+              <td class="title-size">{{term.title}}</td>
               <td class="duration">{{term.duration}} </td>
             </tr>
           </table>

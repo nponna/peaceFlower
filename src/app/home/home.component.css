@@ -13,22 +13,28 @@
    text-align: center;
 }
 
+.block-custom2 {
+   padding-top: 0px;
+}
 .block-custom {
    padding-top: 60px;
 }
 
-.block-custom2 {
-   padding-top: 30px;
+.why {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 112px;
 }
 
-.circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  font-size: 20px;
-  color: #fff;
-  line-height: 200px;
-  text-align: center;
-  background: rgba(0, 69, 119, 0.9);
-  margin: auto;
+.cardtext {
+  font-size: 18px;
+}
+
+@media (max-width: 576px) { 
+
+  .block-custom {
+   padding-top: 0px;
+  }
+
 }

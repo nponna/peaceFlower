@@ -3,13 +3,33 @@
   font-family: 'Georgia', serif;
   font-weight: lighter;
   font-size: 20px;
-  height: 80px;
 }
+@media (max-width: 991px) { 
 
-a {
-  color: white;
+  .navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 3.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
 }
 
 .nav-ul-custom {
   padding-top: 20px;
 }
+.white {
+	color: white;
+	font-family: 'Georgia', serif;
+	text-align: left;
+	font-size: 20px;
+}
+.logo {
+  display: inline-block;
+  margin: auto;
+  width: 8%;
+}
+
+
+
+
