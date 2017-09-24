@@ -13,8 +13,11 @@
    text-align: center;
 }
 
-.block-custom {
+.block-custom2 {
    padding-top: 0px;
+}
+.block-custom {
+   padding-top: 60px;
 }
 
 .circle {
@@ -26,6 +29,7 @@
   line-height: 200px;
   text-align: center;
   background: rgba(0, 69, 119, 0.9);
+  margin: auto;
 }
 
 .cardtext {

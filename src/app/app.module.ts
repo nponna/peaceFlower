@@ -9,7 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { ReviewsComponent } from './reviews/reviews.component';
 import { FooterComponent } from './footer/footer.component';
-import { TeachersComponent } from './Teachers/Teachers.component';
+import { TeachersComponent } from './teachers/teachers.component';
 import { ProgramsComponent } from './programs/programs.component';
 import { AboutusComponent } from './about-us/about-us.component';
 import { AdmissionsComponent } from './admissions/admissions.component';
@@ -18,11 +18,11 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
   { path: 'reviews', component: ReviewsComponent},
-  { path: 'Teachers', component: TeachersComponent},
+  { path: 'teachers', component: TeachersComponent},
   { path: 'programs', component: ProgramsComponent},
   { path: 'aboutus', component: AboutusComponent},
-  { path: 'Admissions', component: AdmissionsComponent},
-  { path: 'ContactUs', component: ContactUsComponent },
+  { path: 'admissions', component: AdmissionsComponent},
+  { path: 'contact-us', component: ContactUsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
 ]
 

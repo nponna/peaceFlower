@@ -12,6 +12,11 @@
 	width: 300px;
 }
 
-.cardtext {
+.custom-size {
   font-size: 18px;
 }
+
+.title-size {
+	width: 350px;
+}
+
