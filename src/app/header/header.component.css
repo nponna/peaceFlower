@@ -27,5 +27,20 @@
 
 .upper-band {
   background-color: rgba(0, 69, 119, 0.9); 
-  height: 0px;
-}    
+  height: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+} 
+
+@media (max-width: 576px) { 
+
+  .title { 
+    text-align: center;
+  }
+
+  .sub-title { 
+    text-align: center;
+    padding-right: 0px;
+  }
+
+}  

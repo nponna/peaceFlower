@@ -13,12 +13,11 @@
 <br/>
 <div class="row"> 
   <div class="col-sm-12">
-  <div style="background-color: white">
     <h3>Our Curriculum </h3>
     <p> {{curriculumDisplayed}} </p>
 
     <table class="table custom-size"> 
-            <tr *ngFor="let curriculumType of curriculumTypesDisplayed">
+            <tr  class="hidden-sm-down" *ngFor="let curriculumType of curriculumTypesDisplayed">
               <td><b>{{curriculumType.title}}</b></td>
               <td>{{curriculumType.content1}}
               <br *ngIf="!!curriculumType.content2"/> 
@@ -35,7 +34,23 @@
               <blockquote style="text-align: right"><em>{{curriculumType.by}}</em></blockquote>    
               </td>
             </tr>
+            <p class="hidden-md-up" *ngFor="let curriculumType of curriculumTypesDisplayed">
+              <tr><b>{{curriculumType.title}}</b></tr>
+              <tr>{{curriculumType.content1}}
+              <br *ngIf="!!curriculumType.content2"/> 
+              <br *ngIf="!!curriculumType.content2"/>
+              {{curriculumType.content2}}
+              <br *ngIf="!!curriculumType.content3"/> 
+              <br *ngIf="!!curriculumType.content3"/>
+              {{curriculumType.content3}}
+              <br/>
+              <blockquote style="padding-left: 40px;margin: 1rem 0 0;"><em>{{curriculumType.quote}} 
+              </em>
+              </blockquote>
+
+              <blockquote style="text-align: right"><em>{{curriculumType.by}}</em></blockquote>    
+              </tr>
+            </p>
     </table>        
-  </div>
   </div>
 </div> 

@@ -20,18 +20,21 @@
    padding-top: 60px;
 }
 
-.circle {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+.why {
   font-size: 20px;
-  color: #fff;
-  line-height: 200px;
+  font-weight: bold;
   text-align: center;
-  background: rgba(0, 69, 119, 0.9);
-  margin: auto;
+  padding-top: 112px;
 }
 
 .cardtext {
   font-size: 18px;
+}
+
+@media (max-width: 576px) { 
+
+  .block-custom {
+   padding-top: 0px;
+  }
+
 }

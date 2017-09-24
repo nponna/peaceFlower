@@ -1,15 +1,26 @@
- .nav-colors {
+.nav-colors {
   background-color: rgba(0, 69, 119, 0.9); 
   font-family: 'Georgia', serif;
   font-weight: lighter;
   font-size: 20px;
 }
+@media (max-width: 991px) { 
+
+  .navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 3.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+}
+
 .nav-ul-custom {
   padding-top: 20px;
 }
 .white {
 	color: white;
-	 font-family: 'Georgia', serif;
+	font-family: 'Georgia', serif;
 	text-align: left;
 	font-size: 20px;
 }
@@ -18,3 +29,7 @@
   margin: auto;
   width: 8%;
 }
+
+
+
+
