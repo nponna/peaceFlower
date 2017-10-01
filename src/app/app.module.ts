@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -15,6 +16,7 @@ import { AboutusComponent } from './about-us/about-us.component';
 import { AdmissionsComponent } from './admissions/admissions.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
+import { AdmissionsService } from './services/admissions.service';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent},
@@ -45,8 +47,10 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
+  providers: [AdmissionsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

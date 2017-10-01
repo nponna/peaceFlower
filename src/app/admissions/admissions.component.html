@@ -1,58 +1,59 @@
 
-<h1 style="text-align: center;">Admissions Contact Form</h1>
+<h1 style="text-align: center;" #cry>Admissions Contact Form</h1>
 <form id="gform" method="POST" class="pure-form pure-form-stacked"
   action="https://script.google.com/macros/s/AKfycbzMGgPjWOQTstsqo3GAHPM130yYV4heoF0E17cUfn9JIrAxkRc/exec">
     <!-- change the form action to your script url -->
 
-    <fieldset>
+    <fieldset class="pure-group">
       <label for="name"> Student's Full Name: </label>
       <input id="name" name="name" placeholder="Student's Full Name" />
     </fieldset>
 
-    <fieldset>
+    <fieldset class="pure-group">
       <label for="dateOfBirth">Date of birth: </label>
-      <input type="date" id="dateOfBirth" name="dateOfBirth" />
+      <input type="date" id="dateOfBirth" name="dateOfBirth"/>
     </fieldset>
 
     <fieldset>
       <label for="sex">Sex: </label>
-      <input type="radio" name="sex" id="sex" value="male" /> Male 
-      <input type="radio" name="sex" id="sex" value="female"/> Female
+      <input type="radio" name="sex" id="sex" value="male"> Male 
+      <input type="radio" name="sex" id="sex" value="female"> Female
     </fieldset>
 
-    <fieldset>
+    <fieldset class="pure-group">
       <label for="address">Address</label>
-      <textarea rows="4" name="address" id="address" placeholder="Address">
+      <textarea rows="4" name="address" id="address">
       </textarea> 
     </fieldset>
 
-    <fieldset>
+    <fieldset class="pure-group">
       <label for="parent_guardian">Parent/Guardian Name: </label>
-      <input id="parent_guardian" type="text" name="parent_guardian" placeholder="Parent/Guardian Name" />
+      <input id="parent_guardian" name="parent_guardian" placeholder="Parent/Guardian Name" />
     </fieldset>
 
-    <fieldset>
+    <fieldset class="pure-group">
       <label for="contact_phone">Contact Phone Number:</label>
-      <input id="contact_phone" name="contact_phone" type="tel"
-       placeholder="Contact Phone Number" />
+      <input id="contact_phone" name="contact_phone" type="tel" value=""
+       placeholder="Contact Phone Number"/>
     </fieldset>
 
-    <fieldset>
-      <label for="email">Contact Email Address:</label>
-      <input id="email" name="email" type="email" placeholder="Contact Email Address" />
+    <fieldset class="pure-group">
+      <label for="email"><em>Your</em> Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com"/>
       <span id="email-invalid" style="display:none">
         Must be a valid email address</span>
     </fieldset>
 
-    <fieldset>
+    <fieldset class="pure-group">
       <label for="allergies">Allergies</label>
-      <textarea rows="4" name="allergies" id="allergies" placeholder="Allergies">
+      <textarea rows="4" name="allergies" id="allergies">
       </textarea> 
     </fieldset>
 
-    <fieldset>
+    <fieldset class="pure-group">
       <label for="special_needs">Special needs</label>
-      <textarea rows="4" name="special_needs" id="special_needs" placeholder="Special needs">
+      <textarea rows="4" name="special_needs" id="special_needs">
       </textarea> 
     </fieldset>
 
@@ -62,7 +63,156 @@
   </form>
 
   <!-- Customise the Thankyou Message People See when they submit the form: -->
-  <div style="display:none; text-align: center;" id="thankyou_message">
-    <p><em>Thanks</em> for contacting us!
-      We will get back to you soon!</p>
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
   </div>
+
+
+
+
+
+
+
+
+<!-- <form id="gform" method="POST" class="pure-form pure-form-stacked"
+  action='https://script.google.com/macros/s/AKfycbwZF-rGGQIC-tq8nCdA_ozDOI57bqUeFvqMktd48zOhKtLzuAw/exec'>
+   
+
+    <fieldset class="pure-group">
+      <label for="name">Student’s full name: </label>
+      <input type="text" id="name" name="name" />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="dateOfBirth">Date of birth: </label>
+      <input type="date" id="dateOfBirth" name="dateOfBirth"/>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="sex">Sex</label>
+      <input type="text" name="sex" id="sex"/>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="address">Address</label>
+      <textarea rows="4" class="form-control" name="address" id="address">
+      </textarea> 
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="parentGuardian">Parent/ Guardian</label>
+      <input type="text" name="parentGuardian" id="parentGuardian">
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="homePhone">Home Phone</label>
+      <input type="tel" name="homePhone" id="homePhone" />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="momWorkPhone">Mom Work Phone</label>
+      <input type="tel" name="momWorkPhone" id="momWorkPhone">
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="dadWorkPhone">Dad work Phone</label>
+      <input type="tel" name="dadWorkPhone" id="dadWorkPhone">
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="momsPhone">Mom’s Mobile</label>
+      <input type="tel" name="momsPhone" id="momsPhone">
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="dadsPhone">Dad’s Mobile</label>
+      <input type="tel" name="dadsPhone" id="dadsPhone">
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="emailAddress">Email Address</label>
+      <input type="email" name="emailAddress" id="emailAddress" >
+      <span id="email-invalid" style="display:none">
+        Must be a valid email address</span>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="allergies">Allergies</label>
+      <textarea rows="4" name="allergies" id="allergies">
+      </textarea> 
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="specialNeeds">Special Needs</label>
+      <textarea rows="4" name="specialNeeds" id="specialNeeds">
+      </textarea> 
+    </fieldset>
+
+    <button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+  </form>
+
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
+  </div>
+ -->
+
+<!-- <div class="row"> 
+  <div class="col-sm-6">
+    <h1 style="text-align: center;">Admissions Form</h1>
+    <form (ngSubmit)="onSubmit(admissionsForm.value)" #admissionsForm="ngForm">
+      <div class="form-group">
+        <label for="name">Student’s full name</label>
+        <input type="text" class="form-control" name="name" id="name" ngModel>
+      </div>
+
+      <div class="form-group">
+        <label for="dateOfBirth">Date of birth</label>
+        <input type="date" class="form-control" name="dateOfBirth" id="dateOfBirth" ngModel>
+      </div>
+
+      <div class="form-group">
+          <label for="sex">Sex: </label>
+          <input type="radio" class="form-control" name="sex" id="sex" value="male" ngModel> Male 
+          <input type="radio"  class="form-control" name="sex" id="sex" value="female" ngModel> Female
+      </div>
+
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea rows="4" class="form-control" name="address" id="address" ngModel>
+        </textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="parent_guardian">Parent/ Guardian</label>
+        <input type="text" class="form-control" name="parent_guardian" id="parent_guardian" ngModel>
+      </div>
+      
+      <div class="form-group">
+        <label for="contact_phone">Contact Phone Number:</label>
+        <input id="contact_phone" name="contact_phone" type="tel" value=""
+       placeholder="Contact Phone Number" ngModel/>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" class="form-control" name="email" id="email" ngModel>
+      </div>
+      <div class="form-group">
+        <label for="allergies">Allergies</label>
+        <textarea rows="4" class="form-control" name="allergies" id="allergies" ngModel>
+        </textarea> 
+      </div>
+      <div class="form-group">
+        <label for="special_needs">Special needs</label>
+        <textarea rows="4" class="form-control" name="special_needs" id="special_needs" ngModel>
+        </textarea> 
+      </div>
+
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+  </div>
+</div> -->
