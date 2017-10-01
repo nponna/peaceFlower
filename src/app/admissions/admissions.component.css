@@ -2,3 +2,32 @@
 .cardtext {
   font-size: 18px;
 }
+
+#parent_guardian {
+	width: 345px;
+}
+
+#contact_phone {
+	width: 345px;
+}
+
+@media (max-width: 575px) { 
+
+#parent_guardian {
+  width: 266px;
+}
+
+#contact_phone {
+  width: 266px;
+}
+
+#email {
+  width: 266px;
+}
+
+#name {
+  width: 266px;
+}
+
+
+}

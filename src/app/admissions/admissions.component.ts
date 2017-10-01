@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { missionStatement, whyPeaceFlower } from '../data/home';
 
+
 @Component({
   selector: 'Admissions',
   templateUrl: './admissions.component.html',
@@ -16,3 +17,4 @@ export class AdmissionsComponent implements OnInit{
   }
 
 }
+
