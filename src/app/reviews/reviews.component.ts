@@ -10,7 +10,6 @@ export class ReviewsComponent implements OnInit {
   public reviewsDisplayed: any[] = [];
 
   ngOnInit(): void {
-  	console.log('review',reviews);
   	this.reviewsDisplayed = reviews;
   }
 

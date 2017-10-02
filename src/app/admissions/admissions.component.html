@@ -1,68 +1,67 @@
+<div class="row"> 
+  <div class="col-lg-3"></div>
+  <div class="col-lg-6">
+    <div class="alert alert-success" role="alert" *ngIf="!!message">
+      {{message}}
+    </div>
+    <div class="alert alert-danger" role="alert" *ngIf="!!errorMessage">
+      {{errorMessage}}
+    </div>
+    <div *ngIf="!message">
+        <h1 style="text-align: center;">Admissions Contact Form</h1>
+        <form (ngSubmit)="onSubmit(admissionsForm)" #admissionsForm="ngForm">
+          <div class="form-group">
+            <label for="name">Student’s full name <span>*</span></label>
+            <input type="text" class="form-control" name="name" id="name" required ngModel>
+          </div>
 
-<h1 style="text-align: center;">Admissions Contact Form</h1>
-<form id="gform" method="POST" class="pure-form pure-form-stacked"
-  action="https://script.google.com/macros/s/AKfycbzMGgPjWOQTstsqo3GAHPM130yYV4heoF0E17cUfn9JIrAxkRc/exec">
-    <!-- change the form action to your script url -->
+          <div class="form-group">
+            <label for="dateOfBirth">Date of birth <span>*</span></label>
+            <input type="date" class="form-control" name="dateOfBirth" id="dateOfBirth" required ngModel>
+          </div>
 
-    <fieldset>
-      <label for="name"> Student's Full Name: </label>
-      <input id="name" name="name" placeholder="Student's Full Name" />
-    </fieldset>
+          <div class="form-group">
+              <label for="sex">Sex <span>*</span></label>
+              <select class="custom-select form-control" required name="sex" id="sex" ngModel>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+             </select>
+          </div>
 
-    <fieldset>
-      <label for="dateOfBirth">Date of birth: </label>
-      <input type="date" id="dateOfBirth" name="dateOfBirth" />
-    </fieldset>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <textarea rows="4" class="form-control" name="address" id="address" ngModel>
+            </textarea>
+          </div>
 
-    <fieldset>
-      <label for="sex">Sex: </label>
-      <input type="radio" name="sex" id="sex" value="male" /> Male 
-      <input type="radio" name="sex" id="sex" value="female"/> Female
-    </fieldset>
+          <div class="form-group">
+            <label for="parent_guardian">Parent/ Guardian Name <span>*</span></label>
+            <input type="text" class="form-control" name="parent_guardian" id="parent_guardian" required ngModel>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact_phone">Contact Phone Number <span>*</span></label>
+            <input type="tel" class="form-control" id="contact_phone" name="contact_phone" required ngModel>
+          </div>
 
-    <fieldset>
-      <label for="address">Address</label>
-      <textarea rows="4" name="address" id="address" placeholder="Address">
-      </textarea> 
-    </fieldset>
+          <div class="form-group">
+            <label for="email">Email Address <span>*</span></label>
+            <input type="email" class="form-control" name="email" id="email"  required ngModel>
+          </div>
+          <div class="form-group">
+            <label for="allergies">Allergies</label>
+            <textarea rows="4" class="form-control" name="allergies" id="allergies" ngModel>
+            </textarea> 
+          </div>
+          <div class="form-group">
+            <label for="special_needs">Special needs</label>
+            <textarea rows="4" class="form-control" name="special_needs" id="special_needs" ngModel>
+            </textarea> 
+          </div>
 
-    <fieldset>
-      <label for="parent_guardian">Parent/Guardian Name: </label>
-      <input id="parent_guardian" type="text" name="parent_guardian" placeholder="Parent/Guardian Name" />
-    </fieldset>
-
-    <fieldset>
-      <label for="contact_phone">Contact Phone Number:</label>
-      <input id="contact_phone" name="contact_phone" type="tel"
-       placeholder="Contact Phone Number" />
-    </fieldset>
-
-    <fieldset>
-      <label for="email">Contact Email Address:</label>
-      <input id="email" name="email" type="email" placeholder="Contact Email Address" />
-      <span id="email-invalid" style="display:none">
-        Must be a valid email address</span>
-    </fieldset>
-
-    <fieldset>
-      <label for="allergies">Allergies</label>
-      <textarea rows="4" name="allergies" id="allergies" placeholder="Allergies">
-      </textarea> 
-    </fieldset>
-
-    <fieldset>
-      <label for="special_needs">Special needs</label>
-      <textarea rows="4" name="special_needs" id="special_needs" placeholder="Special needs">
-      </textarea> 
-    </fieldset>
-
-    <button class="button-success pure-button button-xlarge">
-      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
-
-  </form>
-
-  <!-- Customise the Thankyou Message People See when they submit the form: -->
-  <div style="display:none; text-align: center;" id="thankyou_message">
-    <p><em>Thanks</em> for contacting us!
-      We will get back to you soon!</p>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </div>
   </div>
+  <div class="col-lg-3"></div>
+</div>
