@@ -1,9 +1,9 @@
-export const teachers = "Peace Flower Montessori started by passionate, qualified and experienced Montessori teachers Anu and Tan. Below are full details about them.";
+export const teachers = "Peace Flower Montessori is founded by passionate, qualified and experienced Montessori teachers, Anu and Tan. Please read below to find out more about them.";
 
 export const bios = [
  {
  	"name": "Anuradha Sala",
- 	"desc": "Deeply motivated and reliable Montessori Teacher with stellar record of classroom and administrative achievement with 14 years of experience. Able to function well independently and as a member of a Montessori education team. Strong ability to coordinate with parents and guardians as well as other Montessori Teachers and School staff. Excellent at teaching strategies for children in various stages of development. Has experience working with children with challenging behaviors and disabilities. Received several appreciations and honors from many parents and teachers for valuable contributions as teacher, head teacher and administrator.",
+ 	"desc": "Anuradha Sala (Anu) is a deeply motivated and reliable Montessori teacher and founder of PFM with a stellar record of classroom and administrative achievement. In her 14 years of experience, Anu has developed excellent teaching strategies for children in various stages of development, including children with challenging behaviors and disabilities. She believes in and commits to every child that enters her classroom because her goal is to help every child be the best version of themselves.",
     "education": ["Montessori Early childhood Credentials, American Montessori Society (AMS)",
           "Certificate in Montessori training, California State University, East Bay.",
           "Early Child Development Units, Vanguard University of Southern California",
@@ -28,7 +28,7 @@ export const bios = [
  },
  {
      "name": "Tandrima Bandyopadhyay",
-     "desc": "My name is Tandrima Bandyopadhyay and I’m a partner/owner of Peace Flower Montessori. As a mother of two children, as well as an educator, I believe all kids deserve to have a safe educational environment to learn and grow in.  We strive every day to provide a lasting Montessori education in each child that comes through our center.",
+     "desc": "Tandrima Bandyopadhyay (Tan) is a well qualified montessori teacher and founder of PFM with 11 years of experience in teaching and admistration of young children and montessori school programs. As an educator, as well as mother of two children, she believes that all children deserve to have a safe educational environment to learn and grow in. Every day she strives to provide a lasting Montessori education on each child that enters her classroom.",
     "education": ["Montessori credential from Cal state east bay(extension program), 2016",
           "28 ECE units including administrative, completed from Ohlone and Las Positas college, 2010",
           "Master in Geography, University Of Calcutta, 1995",
