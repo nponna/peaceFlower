@@ -3,3 +3,8 @@
 	background-color: #ccffff;
 	border: 0px;
 }
+.custom-bg {
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px; 
+}

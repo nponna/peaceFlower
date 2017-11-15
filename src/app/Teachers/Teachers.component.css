@@ -13,6 +13,7 @@
 	height: 350px;
 	image-orientation: from-image;
 	border: 5px solid black;
+	border-radius: 25px;
 }
 
 .custom-size {

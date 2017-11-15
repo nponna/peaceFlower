@@ -6,5 +6,11 @@
 }
 .cardtext {
   font-size: 18px;
-  background-color: #ccffff;
+}
+
+@media (max-width: 576px) { 
+
+	.image-position {
+		width: 350px;		
+	}
 }

@@ -2,17 +2,19 @@
   <div class="col-sm-6" *ngFor="let program of programsDisplayed">
     <div class="card">
       <img class="card-img-top profile-image-position " src="../../assets/images/kidsPlayingStub.jpg" alt="Card image cap">
-      <div class="card-block">
+      <br/>
+      <div class="card-block custom-bg">
         <h3 class="card-title">{{program.title}}</h3>
         <p class="card-text custom-size">{{program.content}} <br> * Child to teacher ratio is 10:1 </p>
       </div>
     </div>
+    <br/>
   </div>
 </div>
 <br/>
 <br/>
 <div class="row"> 
-  <div class="col-sm-12">
+  <div class="col-sm-12 custom-bg">
     <h3>Our Curriculum </h3>
     <p class="table custom-size">{{curriculumDisplayed}} </p>
 

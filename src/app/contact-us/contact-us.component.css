@@ -7,3 +7,20 @@
   text-align: center;
 }
 
+.custom-bg {
+	width: 500px;
+	text-align: center;
+	margin:0 auto;
+}
+
+@media (max-width: 576px) { 
+
+	.custom-bg {
+		width: 350px;
+		text-align: center;
+		margin:0 auto;
+		padding: 5px;
+		
+	}
+}
+

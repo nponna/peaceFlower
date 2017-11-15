@@ -1,13 +1,13 @@
 <div class="row"> 
   <div class="col-lg-3"></div>
   <div class="col-lg-6">
-    <div class="alert alert-success" role="alert" *ngIf="!!message">
+    <div class="alert alert-success custom-bg" role="alert" *ngIf="!!message">
       {{message}}
     </div>
-    <div class="alert alert-danger" role="alert" *ngIf="!!errorMessage">
+    <div class="alert alert-danger custom-bg" role="alert" *ngIf="!!errorMessage">
       {{errorMessage}}
     </div>
-    <div *ngIf="!message">
+    <div class="custom-bg" *ngIf="!message">
         <h1 style="text-align: center;">Admissions Contact Form</h1>
         <form (ngSubmit)="onSubmit(admissionsForm)" #admissionsForm="ngForm">
           <div class="form-group">
