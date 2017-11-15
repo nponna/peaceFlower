@@ -6,7 +6,7 @@
 <div class="row"> 
   <div class="col-sm-6" *ngFor="let bio of biosDisplayed">
     <div class="card custom-size">
-      <img class="card-img-top profile-image-position " src="../../assets/images/profilePic.png" alt="Card image cap">
+      <img class="card-img-top profile-image-position " src="../../assets/images/{{bio.pic}}" alt="Card image cap">
       <div class="card-block">
         <h3 class="card-title">{{bio.name}}</h3>
         <p class="card-text">{{bio.desc}}</p>

@@ -2,6 +2,7 @@ export const teachers = "Peace Flower Montessori is founded by passionate, quali
 
 export const bios = [
  {
+  "pic": "anu.jpg",
  	"name": "Anuradha Sala",
  	"desc": "Anuradha Sala (Anu) is a deeply motivated and reliable Montessori teacher and founder of PFM with a stellar record of classroom and administrative achievement. In her 14 years of experience, Anu has developed excellent teaching strategies for children in various stages of development, including children with challenging behaviors and disabilities. She believes in and commits to every child that enters her classroom because her goal is to help every child be the best version of themselves.",
     "education": ["Montessori Early childhood Credentials, American Montessori Society (AMS)",
@@ -26,7 +27,8 @@ export const bios = [
     }]      
 
  },
- {
+ {   
+     "pic": "tandrima.jpg",
      "name": "Tandrima Bandyopadhyay",
      "desc": "Tandrima Bandyopadhyay (Tan) is a well qualified montessori teacher and founder of PFM with 11 years of experience in teaching and admistration of young children and montessori school programs. As an educator, as well as mother of two children, she believes that all children deserve to have a safe educational environment to learn and grow in. Every day she strives to provide a lasting Montessori education on each child that enters her classroom.",
     "education": ["Montessori credential from Cal state east bay(extension program), 2016",
