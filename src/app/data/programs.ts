@@ -4,14 +4,16 @@ export const programs = [
     "content": "Children age 36 months and above of age are  accepted into this program. Daily activities include welcome, free time, circle time, small group lesson time, Montessori activities, indoor/outdoor activities, lunch, nap, art, music, reading time.",
     "images": [{"src": "../../assets/images/ArtArea.jpg", "title": "Art Area"},
                {"src": "../../assets/images/DramaticPlayArea.jpg", "title": "Dramatic Play Area"},
-               {"src": "../../assets/images/kg.jpg", "title": "Kindergarder"}]
+               {"src": "../../assets/images/kg.jpg", "title": "Classroom"},
+               {"src": "../../assets/images/Slide.jpg", "title": "Outside Play"}]
  },
  {
  	"title": "Pre-K and Kindergarten program",
  	"content": "Children age 4-6 year old accepted into this program. In addition to 4-6 year old daily activities, these kids are trained on pre Math, Reading, Phonetic Writingskills.",
-    "images": [{"src": "../../assets/images/PFM_class.jpg", "title": "Classroom"},
+    "images": [{"src": "../../assets/images/PFM_class.jpg", "title": "Kindergarden"},
                {"src": "../../assets/images/pfm_class2.jpg", "title": "Classroom"},
-               {"src": "../../assets/images/Playhousecloser.jpg", "title": "Play House"}]
+               {"src": "../../assets/images/Playhousecloser.jpg", "title": "Play House"},
+               {"src": "../../assets/images/Sandbox.jpg", "title": "Sandbox"}]
  }
 ]
 
