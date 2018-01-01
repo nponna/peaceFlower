@@ -10,6 +10,17 @@
   font-size: 18px;
 }
 
+.panorama {
+	height: 300px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	border-radius: 25px;
+	img {
+		height: 100%;
+
+	}
+}
+
 @media (max-width: 576px) { 
 
 	.image-position {
