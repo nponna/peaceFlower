@@ -1,7 +1,7 @@
 export const programs = [
  {
-    "title": "3-6 years old program",
-    "content": "Children age 36 months and above of age are  accepted into this program. Daily activities include welcome, free time, circle time, small group lesson time, Montessori activities, indoor/outdoor activities, lunch, nap, art, music, reading time.",
+    "title": "Preschool program",
+    "content": "Children age 30 months and above of age are  accepted into this program. Daily activities include welcome, free time, circle time, small group lesson time, Montessori activities, indoor/outdoor activities, lunch, nap, art, music, reading time.",
     "images": [{"src": "../../assets/images/ArtArea.jpg", "title": "Art Area"},
                {"src": "../../assets/images/DramaticPlayArea.jpg", "title": "Dramatic Play Area"},
                {"src": "../../assets/images/kg.jpg", "title": "Classroom"},
