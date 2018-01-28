@@ -6,14 +6,9 @@
     <div *ngFor="let option of optionsDisplayed">
       <div class="custom-bg custom-width">
         <h5><b> {{option.optionTitle}}:</b></h5>
-        <h6><b> {{option.optionSubTitle}} </b></h6>
+        <h6 *ngIf="!!option.optionSubTitle"><b> {{option.optionSubTitle}} </b></h6>
         <table> 
           <tr *ngFor="let timing of option.timings"><td>{{timing.days}}</td><td>${{timing.cost}} </td></tr>
-        </table>
-        <br *ngIf="!!option.optionSubTitle2"/>
-        <h6 *ngIf="!!option.optionSubTitle2"><b>{{optionsDisplayed[2].optionSubTitle2}}</b></h6>
-        <table *ngIf="!!option.timings2">
-          <tr *ngFor="let timing of option.timings2"><td>{{timing.days}}</td><td>${{timing.cost}} </td></tr>
         </table>
       </div>
       <br/>
@@ -23,6 +18,9 @@
   <br/>
    <ul>
      <li *ngFor="let info of moreInfoDisplayed"> {{info}}
+     </li>
+     <li>
+       {{moreInfoStyledDisplayed[0]}}<b>{{moreInfoStyledDisplayed[1]}}</b> {{moreInfoStyledDisplayed[2]}}
      </li>
    </ul>
   </div>

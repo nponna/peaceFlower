@@ -15,7 +15,7 @@ import { TeachersComponent } from './teachers/teachers.component';
 import { ProgramsComponent } from './programs/programs.component';
 import { AboutusComponent } from './about-us/about-us.component';
 import { AdmissionsComponent } from './admissions/admissions.component';
-import { RatesComponent } from './rates/rates.component';
+import { TuitionComponent } from './tuition/tuition.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 
 import { AdmissionsService } from './services/admissions.service';
@@ -27,7 +27,7 @@ const routes: Routes = [
   { path: 'programs', component: ProgramsComponent},
   { path: 'aboutus', component: AboutusComponent},
   { path: 'admissions', component: AdmissionsComponent},
-  { path: 'rates', component: RatesComponent},
+  { path: 'tuition', component: TuitionComponent},
   { path: 'contact-us', component: ContactUsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
 ]
@@ -45,7 +45,7 @@ const routes: Routes = [
     ProgramsComponent,
     AboutusComponent,
     AdmissionsComponent,
-    RatesComponent,
+    TuitionComponent,
     ContactUsComponent
   ],
   imports: [
