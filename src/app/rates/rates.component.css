@@ -1,0 +1,39 @@
+.centering {
+	text-align: center;
+}
+
+ul {
+	list-style-position: inside;
+	font-weight: 450;
+}
+
+table {
+	margin: auto;
+}
+
+td {
+	width: 200px;
+}
+
+div.custom-width {
+	width: 600px;
+	margin: auto;
+}
+
+@media (max-width: 576px) { 
+
+  div.custom-width {
+    width: 300px;
+  }
+
+  td {
+  	width: 100px;
+  	height: 70px;
+  }
+
+  ul {
+  	list-style-position: outside;
+  	text-align: left;
+  }
+
+}
