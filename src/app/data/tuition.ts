@@ -6,7 +6,7 @@ export const moreInfo = [
 
 export const moreInfoWithStyling = [
 "Option A is available for ",
-"after school 4-6 year old TK & Kindergarten children",
+"after school 2-6 year old TK & Kindergarten children",
 " and free pick-up from schools within 10 miles."
 ]
 

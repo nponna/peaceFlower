@@ -9,7 +9,7 @@ export const programs = [
  },
  {
  	"title": "Pre-K and Kindergarten program",
- 	"content": "Children age 4-6 year old accepted into this program. In addition to 4-6 year old daily activities, these kids are trained on pre Math, Reading, Phonetic Writingskills.",
+ 	"content": "Children age 2-6 year old accepted into this program. In addition to 2-6 year old daily activities, these kids are trained on pre Math, Reading, Phonetic Writingskills.",
     "images": [{"src": "../../assets/images/PFM_class.jpg", "title": "Kindergarden"},
                {"src": "../../assets/images/pfm_class2.jpg", "title": "Classroom"},
                {"src": "../../assets/images/Playhousecloser.jpg", "title": "Play House"},
