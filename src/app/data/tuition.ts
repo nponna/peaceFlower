@@ -39,7 +39,7 @@ export const options = [
 		optionTitle: "Option C",
 		optionSubTitle: "Extended day program (8am - 6pm)",
 		timings: [
-          {days: "5 days - Mon-Fri", cost:"1150"},
+          {days: "5 days - Mon-Fri", cost:"1100"},
 		]
 
 	},
