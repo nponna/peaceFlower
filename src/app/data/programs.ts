@@ -1,7 +1,7 @@
 export const programs = [
  {
-    "title": "Preschool program",
-    "content": "Children age 30 months and above of age are  accepted into this program. Daily activities include welcome, free time, circle time, small group lesson time, Montessori activities, indoor/outdoor activities, lunch, nap, art, music, reading time.",
+    "title": "Toddler program",
+    "content": "Children age 24-36 months are  accepted into this program. Daily activities include welcome, free time, circle time, music and movement, gross motor activities, indoor/outdoor activities, lunch, nap, art, music, story time.",
     "images": [{"src": "../../assets/images/ArtArea.jpg", "title": "Art Area"},
                {"src": "../../assets/images/DramaticPlayArea.jpg", "title": "Dramatic Play Area"},
                {"src": "../../assets/images/kg.jpg", "title": "Classroom"},
@@ -9,7 +9,7 @@ export const programs = [
  },
  {
  	"title": "Pre-K and Kindergarten program",
- 	"content": "Children age 2-6 year old accepted into this program. In addition to 2-6 year old daily activities, these kids are trained on pre Math, Reading, Phonetic Writingskills.",
+ 	"content": "Children age 3-6 year old accepted into this program. In addition to 3-6 year old daily activities, these kids are trained on pre Math, Reading, Phonetic Writingskills.",
     "images": [{"src": "../../assets/images/PFM_class.jpg", "title": "Kindergarden"},
                {"src": "../../assets/images/pfm_class2.jpg", "title": "Classroom"},
                {"src": "../../assets/images/Playhousecloser.jpg", "title": "Play House"},
