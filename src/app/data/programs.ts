@@ -1,9 +1,9 @@
 export const programs = [
  {
-    "title": "Toddler program",
+    "title": "Preschool program",
     "content": "Children ages 24-36 months are  accepted into this program. Daily activities include welcome, free time, circle time, music and movement, gross motor activities, indoor/outdoor activities, lunch, nap, art, music, story time.",
     "images": [{"src": "../../assets/images/ArtArea.jpg", "title": "Art Area"},
-               {"src": "../../assets/images/DramaticPlayArea.jpg", "title": "Dramatic Play Area"},
+               {"src": "../../assets/images/DramaticPlayArea.jpg", "title": "Play Area"},
                {"src": "../../assets/images/kg.jpg", "title": "Classroom"},
                {"src": "../../assets/images/Slide.jpg", "title": "Outside Play"}]
  },
