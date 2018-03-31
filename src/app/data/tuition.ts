@@ -12,7 +12,7 @@ export const moreInfoWithStyling = [
 
 export const title = "Monthly Tuition Rates"
 
-export const subTitle = "Preschool to Kindergarten (30 months to 6 Years)"
+export const subTitle = "Preschool to Kindergarten (24 months to 6 Years)"
 
 export const options = [
 	{
