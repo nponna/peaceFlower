@@ -47,7 +47,7 @@ export const options = [
 		optionTitle: "Extended day care options",
 		timings: [
           {days: "Mon-Fri 3pm - 6pm", cost:"100 per month"},
-          {days: "Mon-Fri 7.30am - 8.00am and 6am - 6.30 pm", cost:"80 per month"}
+          {days: "Mon-Fri 7.30am - 8.00am and 6pm - 6.30pm", cost:"80 per month"}
 		]
 
 	}
