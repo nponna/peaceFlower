@@ -1,0 +1,16 @@
+<div class="row"> 
+  <div class="col-sm-12 custom-bg card-text">
+   <div>{{introLine}}</div>
+   <br/>
+   <div *ngFor="let headingAndBulletPoint of headingAndBulletPoints" >{{headingAndBulletPoint.heading}}
+     <ul>
+	   <li *ngFor="let bulletPoint of headingAndBulletPoint.bulletPoints">{{bulletPoint}}</li>
+	 </ul>
+   </div>
+   <div>{{endPara}}<a href={{endParaLink}}>{{endParaLink}}</a></div>
+   <br/>
+   <div>{{endNote}}</div>
+   <br/>
+   <div>{{endSign}}</div>
+  </div>
+</div>

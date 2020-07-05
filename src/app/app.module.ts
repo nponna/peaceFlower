@@ -17,6 +17,7 @@ import { AboutusComponent } from './about-us/about-us.component';
 import { AdmissionsComponent } from './admissions/admissions.component';
 import { TuitionComponent } from './tuition/tuition.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { Covid19Component } from './covid-19/covid-19.component';
 
 import { AdmissionsService } from './services/admissions.service';
 
@@ -28,6 +29,7 @@ const routes: Routes = [
   { path: 'aboutus', component: AboutusComponent},
   { path: 'admissions', component: AdmissionsComponent},
   { path: 'tuition', component: TuitionComponent},
+  { path: 'covid-19', component: Covid19Component},
   { path: 'contact-us', component: ContactUsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
 ]
@@ -46,7 +48,8 @@ const routes: Routes = [
     AboutusComponent,
     AdmissionsComponent,
     TuitionComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    Covid19Component
   ],
   imports: [
     BrowserModule,
