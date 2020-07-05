@@ -19,9 +19,9 @@ export const options = [
 		optionTitle: "Option A",
 		optionSubTitle: "Half day programs (8am - 12pm or 12pm - 4pm)",
 		timings: [
-          {days: "5 days - Mon-Fri", cost:"750"},
-          {days: "3 days - Mon-Wed-Fri", cost:"650"},
-          {days: "2 days - Tue-Thu", cost:"500"}
+          {days: "5 days - Mon-Fri", cost:"800"},
+          {days: "3 days - Mon-Wed-Fri", cost:"700"},
+          {days: "2 days - Tue-Thu", cost:"550"}
 		]
 
 	},
@@ -29,9 +29,9 @@ export const options = [
 		optionTitle: "Option B",
 		optionSubTitle: "Full day programs (8am - 3pm)",
 		timings: [
-          {days: "5 days - Mon-Fri", cost:"1000"},
-          {days: "3 days - Mon-Wed-Fri", cost:"750"},
-          {days: "2 days - Tue-Thu", cost:"550"}
+          {days: "5 days - Mon-Fri", cost:"1050"},
+          {days: "3 days - Mon-Wed-Fri", cost:"800"},
+          {days: "2 days - Tue-Thu", cost:"600"}
 		]
 
 	},
@@ -39,7 +39,7 @@ export const options = [
 		optionTitle: "Option C",
 		optionSubTitle: "Extended day program (8am - 6pm)",
 		timings: [
-          {days: "5 days - Mon-Fri", cost:"1100"},
+          {days: "5 days - Mon-Fri", cost:"1150"},
 		]
 
 	},
