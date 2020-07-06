@@ -5,7 +5,17 @@ export const programs = [
     "images": [{"src": "../../assets/images/ArtArea.jpg", "title": "Art Area"},
                {"src": "../../assets/images/DramaticPlayArea.jpg", "title": "Play Area"},
                {"src": "../../assets/images/kg.jpg", "title": "Classroom"},
-               {"src": "../../assets/images/Slide.jpg", "title": "Outside Play"}]
+               {"src": "../../assets/images/Slide.jpg", "title": "Outside Play"},
+               {"src": "../../assets/images/art_lang1.jpg", "title": "Language"},
+               {"src": "../../assets/images/art_lang2.jpg", "title": "Language"},
+               {"src": "../../assets/images/art_lang3.jpg", "title": "Art"},
+               {"src": "../../assets/images/art_lang4.jpg", "title": "Art"},
+               {"src": "../../assets/images/outside-play.jpg", "title": "Outside Play"},
+               {"src": "../../assets/images/misc1.jpg", "title": "Misc"},
+               {"src": "../../assets/images/misc2.jpg", "title": "Misc"},
+               {"src": "../../assets/images/misc3.jpg", "title": "Misc"}
+
+               ]
  },
  {
  	"title": "Pre-K and Kindergarten program",
@@ -13,7 +23,12 @@ export const programs = [
     "images": [{"src": "../../assets/images/PFM_class.jpg", "title": "Kindergarden"},
                {"src": "../../assets/images/pfm_class2.jpg", "title": "Classroom"},
                {"src": "../../assets/images/Playhousecloser.jpg", "title": "Play House"},
-               {"src": "../../assets/images/Sandbox.jpg", "title": "Sandbox"}]
+               {"src": "../../assets/images/Sandbox.jpg", "title": "Sandbox"},
+               {"src": "../../assets/images/3-letter1.jpg", "title": "3 Letter"},
+               {"src": "../../assets/images/3-letter2.jpg", "title": "3 Letter"},
+               {"src": "../../assets/images/3-letter3.jpg", "title": "3 Letter"},
+               {"src": "../../assets/images/3-letter4.jpg", "title": "3 Letter"},
+               {"src": "../../assets/images/math-100.jpg", "title": "Math 100"}]
  }
 ]
 

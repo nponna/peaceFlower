@@ -1,22 +1,4 @@
 export const introLine = "We will implement the following protocols during this pandemic:";
-export const heading1 = "Parent Drop-Off and Pick-Up";
-export const heading1BulletPoints = [
-"Children older than two-year-old can wear their own face masks (parents’ choice) but teachers will always wear gloves and face masks.",
-"One of the teachers will receive a child from the parent outside of the front door and check temperatures (with a no touch thermometer) of both child and parent.",
-"Teachers will record the temperature and mark the child as present with parent's permission in the sign in and sign out sheet.",
-"Parents are not allowed inside after they drop the child. The teacher will lead the child through the fence door. Before entering children and teachers will change their shoes or remove their shoes and upon entering the facility, they will be directed to wash their hands with soap and water.",
-"Persons who have a fever of 100.4 0 (38.0 0 C) or above or other signs of illness will not be admitted to the facility.",
-"Teachers will be screened the same way before entering the facility"
-];
-export const heading2 = "Room Set-up and Social Distancing Strategies";
-export const heading2BulletPoints = [
-"Children older than two-year-old can wear their own face masks (parents’ choice) but teachers will always wear gloves and face masks.",
-"One of the teachers will receive a child from the parent outside of the front door and check temperatures (with a no touch thermometer) of both child and parent.",
-"Teachers will record the temperature and mark the child as present with parent's permission in the sign in and sign out sheet.",
-"Parents are not allowed inside after they drop the child. The teacher will lead the child through the fence door. Before entering children and teachers will change their shoes or remove their shoes and upon entering the facility, they will be directed to wash their hands with soap and water.",
-"Persons who have a fever of 100.4 0 (38.0 0 C) or above or other signs of illness will not be admitted to the facility.",
-"Teachers will be screened the same way before entering the facility"
-];
 
 export const headingAndBulletPoints = [
 {
@@ -26,7 +8,7 @@ export const headingAndBulletPoints = [
 "One of the teachers will receive a child from the parent outside of the front door and check temperatures (with a no touch thermometer) of both child and parent.",
 "Teachers will record the temperature and mark the child as present with parent's permission in the sign in and sign out sheet.",
 "Parents are not allowed inside after they drop the child. The teacher will lead the child through the fence door. Before entering children and teachers will change their shoes or remove their shoes and upon entering the facility, they will be directed to wash their hands with soap and water.",
-"Persons who have a fever of 100.4 0 (38.0 0 C) or above or other signs of illness will not be admitted to the facility.",
+"Persons who have a fever of 100.4\xB0 (38.0\xB0C) or above or other signs of illness will not be admitted to the facility.",
 "Teachers will be screened the same way before entering the facility"
 ] 
 },

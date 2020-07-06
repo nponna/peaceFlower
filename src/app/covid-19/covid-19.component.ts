@@ -1,7 +1,5 @@
-import { Component, OnInit,  ViewChild, ElementRef, AfterViewInit } from '@angular/core';
-import { schoolName, schoolCaption } from '../data/home';
+import { Component, OnInit} from '@angular/core';
 import { introLine, headingAndBulletPoints, endPara, endParaLink, endNote, endSign } from '../data/covid-19';
-
 
 @Component({
   selector: 'covid-19',

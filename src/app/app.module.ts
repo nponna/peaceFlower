@@ -18,6 +18,7 @@ import { AdmissionsComponent } from './admissions/admissions.component';
 import { TuitionComponent } from './tuition/tuition.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { Covid19Component } from './covid-19/covid-19.component';
+import { OnlineClassesComponent } from './covid-19/online-classes/online-classes.component';
 
 import { AdmissionsService } from './services/admissions.service';
 
@@ -30,6 +31,8 @@ const routes: Routes = [
   { path: 'admissions', component: AdmissionsComponent},
   { path: 'tuition', component: TuitionComponent},
   { path: 'covid-19', component: Covid19Component},
+  { path: 'covid-19/our-measures', component: Covid19Component},
+  { path: 'covid-19/online-classes', component: OnlineClassesComponent},
   { path: 'contact-us', component: ContactUsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full'}
 ]
@@ -49,7 +52,8 @@ const routes: Routes = [
     AdmissionsComponent,
     TuitionComponent,
     ContactUsComponent,
-    Covid19Component
+    Covid19Component,
+    OnlineClassesComponent
   ],
   imports: [
     BrowserModule,
