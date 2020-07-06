@@ -12,7 +12,7 @@ export const programs = [
                {"src": "../../assets/images/art_lang4.jpg", "title": "Art"},
                {"src": "../../assets/images/outside-play.jpg", "title": "Outside Play"},
                {"src": "../../assets/images/misc1.jpg", "title": "Misc"},
-               {"src": "../../assets/images/misc2.jpg", "title": "Misc"},
+               {"src": "../../assets/images/math-spindleBox.jpg", "title": "Math Spindle Box"},
                {"src": "../../assets/images/misc3.jpg", "title": "Misc"}
 
                ]

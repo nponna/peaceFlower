@@ -1,6 +1,7 @@
 .video-size {
 	width: 530px;
 	height:400px;
+	outline:none;
 }
 
 .custom-size {
