@@ -1,5 +1,5 @@
 import { Component, OnInit} from '@angular/core';
-import { onlineClasses, introLine } from '../../data/online-classes';
+import { onlineClasses, introLine1, introLine2  } from '../../data/online-classes';
 
 
 @Component({
@@ -8,12 +8,14 @@ import { onlineClasses, introLine } from '../../data/online-classes';
   styleUrls: ['./online-classes.component.css']
 })
 export class OnlineClassesComponent implements OnInit {
-  public introLine:string;
+  public introLine1:string;
+  public introLine2:string;
   public onlineClasses:any[];
    
   ngOnInit(): void {
   	this.onlineClasses = onlineClasses;
-    this.introLine = introLine;
+    this.introLine1 = introLine1;
+    this.introLine2 = introLine2;
   }
 
 }
