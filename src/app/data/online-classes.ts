@@ -1,11 +1,15 @@
 export const onlineClasses = [
  {
-    "title": "Preschool program",
     "src": "../../assets/videos/onlineClass1.mp4"
  },
  {
- 	"title": "Preschool program",
   "src": "../../assets/videos/onlineClass2.mp4"
+ },
+ {
+  "src": "../../assets/videos/onlineClass3.mp4"
+ },
+ {
+  "src": "../../assets/videos/onlineClass4.mp4"
  }
 ];
 

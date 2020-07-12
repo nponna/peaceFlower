@@ -15,9 +15,10 @@ export const programs = [
                {"src": "../../assets/images/sensorial-redRozeMaze.jpg", "title": "Sensorial - Red Roze Maze"},
                {"src": "../../assets/images/fallArt-outsideActivities.jpg", "title": "Fall Art - Outside Activities"},
                {"src": "../../assets/images/Cultural- parts of the flower.JPG", "title": "Cultural - Parts of the flower"},
-               {"src": "../../assets/images/Work time.JPG", "title": "Work time"}
-
+               {"src": "../../assets/images/Work time.JPG", "title": "Work time"},
+               {"src": "../../assets/images/birthday-orbits.jpeg", "title": "Birthday orbits"}
                ]
+               
  },
  {
  	"title": "Pre-K and Kindergarten program",
