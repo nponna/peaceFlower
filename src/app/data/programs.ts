@@ -5,7 +5,20 @@ export const programs = [
     "images": [{"src": "../../assets/images/ArtArea.jpg", "title": "Art Area"},
                {"src": "../../assets/images/DramaticPlayArea.jpg", "title": "Play Area"},
                {"src": "../../assets/images/kg.jpg", "title": "Classroom"},
-               {"src": "../../assets/images/Slide.jpg", "title": "Outside Play"}]
+               {"src": "../../assets/images/Slide.jpg", "title": "Outside Play"},
+               {"src": "../../assets/images/art_lang3.jpg", "title": "Circle"},
+               {"src": "../../assets/images/art_lang4.jpg", "title": "Art"},
+               {"src": "../../assets/images/outside-play.jpg", "title": "Outside Play"},
+               {"src": "../../assets/images/misc1.jpg", "title": "Practical Life"},
+               {"src": "../../assets/images/math-spindleBox.jpg", "title": "Math Spindle Box"},
+               {"src": "../../assets/images/misc3.jpg", "title": "Sensorial"},
+               {"src": "../../assets/images/sensorial-redRozeMaze.jpg", "title": "Sensorial - Red Roze Maze"},
+               {"src": "../../assets/images/fallArt-outsideActivities.jpg", "title": "Fall Art - Outside Activities"},
+               {"src": "../../assets/images/Cultural- parts of the flower.JPG", "title": "Cultural - Parts of the flower"},
+               {"src": "../../assets/images/Work time.JPG", "title": "Work time"},
+               {"src": "../../assets/images/birthday-orbits.jpeg", "title": "Birthday orbits"}
+               ]
+               
  },
  {
  	"title": "Pre-K and Kindergarten program",
@@ -13,7 +26,25 @@ export const programs = [
     "images": [{"src": "../../assets/images/PFM_class.jpg", "title": "Kindergarden"},
                {"src": "../../assets/images/pfm_class2.jpg", "title": "Classroom"},
                {"src": "../../assets/images/Playhousecloser.jpg", "title": "Play House"},
-               {"src": "../../assets/images/Sandbox.jpg", "title": "Sandbox"}]
+               {"src": "../../assets/images/Sandbox.jpg", "title": "Sandbox"},
+               {"src": "../../assets/images/art_lang1.jpg", "title": "Language 3 letters"},
+               {"src": "../../assets/images/art_lang2.jpg", "title": "Language 3 letters"},
+               {"src": "../../assets/images/3-letter1.jpg", "title": "Language 3 letters"},
+               {"src": "../../assets/images/3-letter2.jpg", "title": "Math 100 board"},
+               {"src": "../../assets/images/3-letter3.jpg", "title": "Language 3 letters"},
+               {"src": "../../assets/images/3-letter4.jpg", "title": "Language 3 letters"},
+               {"src": "../../assets/images/math-100.jpg", "title": "Math 100 board"},
+               {"src": "../../assets/images/language1.jpg", "title": "Language"},
+               {"src": "../../assets/images/language2.jpg", "title": "Language"},
+               {"src": "../../assets/images/language3.jpg", "title": "Language"},
+               {"src": "../../assets/images/cultural.jpg", "title": "Cultural"},
+               {"src": "../../assets/images/fallArtwork.jpg", "title": "Fall Artwork"},
+               {"src": "../../assets/images/Healthyplateartactivities.jpg", "title": "Healthy Plate Art Activities"},
+               {"src": "../../assets/images/Practical life-corn tweezing.jpg", "title": "Practical life-corn tweezing"},
+               {"src": "../../assets/images/drawing.jpg", "title": "Drawing"},
+               {"src": "../../assets/images/Dramatic play.jpg", "title": "Dramatic Play"},
+               {"src": "../../assets/images/Circle time-lesson on food pyramid.jpg", "title": "Circle time-lesson on food pyramid"}
+               ]
  }
 ]
 
